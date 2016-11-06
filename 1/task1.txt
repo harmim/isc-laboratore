@@ -1,0 +1,8 @@
+-- Stahnete si soubor task1.tar.gz.
+-- Rozbalte ho, soubory hw.c a makefile znovu zabalte do .zip archivu.
+-- Vznikly zip archiv nahrajte na evu (idealne nejak jinak nez pres WIS) do slozky ~/ISC/1 (nejprve je treba ji vytvorit pomoci "mkdir").
+-- Na eve archiv rozbalte a zkuste jej prelozit pomoci prikazu "make" (ujistete se, ze jste ve slozce se soubory hw.c a makefile).
+-- Prelozeny soubor spustte (prikaz "./hw"), mel by vypsat "Hello World!" a ukoncit se.
+-- Prihlaste se na merlina, prelozeny soubor by se mel nalezat ve stejne slozce (~/ISC/1) jako na eve.
+-- Smazte soubor ./hw a znovu spustte preklad a overte, ze prelozeny soubor opet funguje. 
+-- Kdo je hotov, muze jit.

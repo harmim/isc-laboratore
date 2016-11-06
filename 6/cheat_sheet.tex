@@ -1,0 +1,82 @@
+\documentclass{article}
+\usepackage[czech]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage{url}
+\usepackage{float}
+\usepackage{graphicx}
+\title{ISC6 Cheat Sheet}
+\author{Jakub Martiško}
+\begin{document}
+%\maketitle
+\section*{Cvičení 6\,--\,\LaTeX}
+\subsection*{Základní nastavení}
+\begin{itemize}
+  \item{\verb|\documentclass{article/report}|}
+  \item{\verb|\usepackage[czech]{babel}|.}
+  \item{\verb|\usepackage[utf8]{inputenc}|.}
+  \item{\verb|\usepackage{float}|.}
+  \item{\verb|\usepackage{graphicx}|.}
+\end{itemize}
+\subsection*{Strukturování a odkazy}
+\begin{itemize}
+  \item{\verb|\chapter{název},\section{název},\subsection*{název}|}
+  \item{\verb|\label{label},\ref{label},\pageref{label}|}
+\end{itemize}
+\subsection*{Matematické prostředí}
+\begin{itemize}
+  \item{\verb|$a^{2}_{1}+\sum^{10}_{i=0} b_i$|}
+  \item{$a^{2}_{1}+\sum^{10}_{i=0} b_i$}
+  \item{\verb|$\alpha,\beta,\gamma,A,B,\Gamma\dots$|}
+  \item{$\alpha,\beta,\gamma,A,B,\Gamma\dots$}
+\end{itemize}
+\subsection*{Obrázky, tabulky apod.}
+\begin{verbatim}
+\begin{table}[H]
+\caption{Moje tabulka}
+\label{tab:mojeTabulka}
+\begin{center}
+\begin{tabular}{ l| c r }
+  1 & 2 & 3 \\\hline
+  4 & 5 & 6 \\
+  70 & 80 & 90 \\
+\end{tabular}
+\end{center}
+\end{table}
+\end{verbatim}
+
+%\begin{verbatim}
+\begin{table}[H]
+\caption{Moje tabulka}
+\label{tab:mojeTabulka}
+\begin{center}
+\begin{tabular}{ l| c r }
+  1 & 2 & 3 \\\hline
+  4 & 5 & 6 \\
+  70 & 80 & 90 \\
+\end{tabular}
+\end{center}
+\end{table}
+%\end{verbatim}
+
+\begin{verbatim}
+\begin{figure}[H]
+\begin{center}
+\scalebox{0.3}{\includegraphics{VUT-FIT-logo.pdf}}
+\scalebox{0.3}{\includegraphics{VUT-FIT-logo.pdf}}
+\end{center}
+\caption{Můj obrázek}
+\label{pic:mujObrazek}
+\end{figure}
+\end{verbatim}
+
+%\begin{verbatim}
+\begin{figure}[H]
+\begin{center}
+\scalebox{0.3}{\includegraphics{VUT-FIT-logo.pdf}}
+\scalebox{0.3}{\includegraphics{VUT-FIT-logo.pdf}}
+\end{center}
+\caption{Můj obrázek}
+\label{pic:mujObrazek}
+\end{figure}
+
+\end{document}

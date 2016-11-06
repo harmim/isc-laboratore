@@ -1,0 +1,33 @@
+diff -u old/functions.c new/functions.c
+--- old/functions.c	2016-10-24 13:46:11.000000000 +0200
++++ new/functions.c	2016-10-24 13:47:51.000000000 +0200
+@@ -4,3 +4,8 @@
+ {
+ 	return a+b;
+ }
++
++int mult(int a, int b)
++{
++	return a*b;
++}
+diff -u old/functions.h new/functions.h
+--- old/functions.h	2016-10-24 13:46:11.000000000 +0200
++++ new/functions.h	2016-10-24 13:47:11.000000000 +0200
+@@ -2,5 +2,5 @@
+ #define FUNCTIONS
+ 
+ int add(int a, int b);
+-
++int mult(int a, int b);
+ #endif
+diff -u old/main.c new/main.c
+--- old/main.c	2016-10-24 13:49:28.000000000 +0200
++++ new/main.c	2016-10-24 13:48:33.000000000 +0200
+@@ -5,6 +5,6 @@
+ {
+ 	int a=5;
+ 	int b=6;
+-	printf("%d + %d = %d\n",a,b,add(a,b));
++	printf("%d * %d = %d\n",a,b,mult(a,b));
+ 	return 0;
+ }
