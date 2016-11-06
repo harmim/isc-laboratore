@@ -1,0 +1,143 @@
+\documentclass{report}
+\usepackage[czech]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage{float}
+\usepackage{graphicx}
+
+\author{Dominik Harmim}
+\title{Dokumentace}
+\date{\today}
+
+\begin{document}
+
+	\maketitle
+	\tableofcontents
+
+	\chapter{Úvod}
+
+	\section{Sekce}
+	\label{odkaz1}
+	Donec maximus molestie erat, in dignissim ipsum bibendum sit amet. 
+	Donec posuere diam cursus dapibus finibus. Praesent fringilla, quam id 
+	posuere eleifend, risus justo tristique justo, non faucibus sapien 
+	mauris nec arcu. Praesent eget nisl velit. Aenean pulvinar risus ut 
+	urna fringilla, eget tempor nisi accumsan. In viverra tristique 
+	hendrerit. Nunc ultricies diam ut placerat euismod.
+
+	\subsection{Podsekce}
+	Proin vulputate erat vitae nulla viverra pellentesque. Donec commodo 
+	dui eu urna tempus, at maximus dolor commodo. Pellentesque euismod a 
+	turpis et vestibulum. Mauris nec nibh et nibh elementum molestie. Donec 
+	non mi nec quam auctor iaculis ut eu ligula. Quisque sapien nunc, 
+	mollis eget mattis in, egestas ut mauris. Vivamus posuere condimentum 
+	dui, feugiat tincidunt felis blandit et.  Aenean dictum, nunc ut 
+	euismod mollis, mi libero lacinia quam, id blandit lectus nibh et erat. 
+
+	\subsection{Podsekce}
+	Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec cursus 
+	est nulla, sit amet tincidunt ipsum dignissim sed. Nulla ac maximus 
+	elit. Donec ipsum eros, consequat aliquet maximus non, semper ac felis. 
+	Suspendisse id risus dictum, condimentum urna ac, condimentum felis. 
+	Pellentesque et erat consectetur, elementum elit ut, vehicula arcu. 
+	Pellentesque a mauris non tellus fringilla dignissim eu et nunc. Morbi 
+	sed neque at purus blandit rhoncus eget laoreet tellus. Nam luctus sed 
+	tortor vitae sodales. Morbi sit amet justo ac magna tincidunt sodales. 
+	Quisque vitae molestie ipsum, id accumsan tortor. Praesent rutrum neque 
+	est, id condimentum dui pretium a. Nulla ut mi finibus, auctor erat ut, 
+	sollicitudin elit. Aenean mauris neque, euismod eget est at, lacinia 
+	tristique risus. Cras et urna laoreet, elementum elit ac, eleifend 
+	ipsum.  Integer a porttitor ex. Suspendisse potenti. Sed lobortis magna 
+	vitae ullamcorper volutpat. Mauris ut sodales leo, a vulputate urna.
+
+	$$ b = a - 5 $$
+	 
+	\begin{equation}
+		b = \sum^{n}_{i + 1} a_i f() \prod a^2_{32}
+		\alpha \beta \gamma \Gamma
+		\frac{1}{b + 5}
+	\end{equation}
+	 
+	Prumer:
+	\begin{equation}
+		\overline{x} = \frac{\sum\limits^{n}_{i = 1} w_i x_i}{\sum\limits^{n}_{i = 1} w_i}
+	\end{equation}
+
+	\begin{table}[h]
+		\centering
+		\caption{My caption}
+		\label{my-label}
+		\begin{tabular}{lllll}
+								  & dsds                  &                        &                         &                           \\ \hline
+		\multicolumn{1}{|l|}{}    & \multicolumn{1}{l|}{} & \multicolumn{1}{l|}{5} & \multicolumn{1}{l|}{}   & \multicolumn{1}{l|}{}     \\ \hline
+		\multicolumn{1}{|l|}{sds} & \multicolumn{1}{l|}{} & \multicolumn{1}{l|}{}  & \multicolumn{1}{l|}{sd} & \multicolumn{1}{l|}{}     \\ \hline
+		\multicolumn{1}{|l|}{}    & \multicolumn{1}{l|}{} & \multicolumn{1}{l|}{}  & \multicolumn{1}{l|}{}   & \multicolumn{1}{l|}{dsds} \\ \hline
+		\end{tabular}
+	\end{table}
+	
+	\begin{figure}[b]
+		\begin{center}
+			\includegraphics[width=0.3\linewidth]{logo.pdf}
+		\end{center}
+	\end{figure}
+	
+	% enumerate
+	\begin{itemize}
+		\item{pole 1}
+		\item{pole 2}
+		\item{pole 3}
+		\item{pole 4}
+	\end{itemize}
+
+	\section{Sekce}
+	Nunc suscipit et neque sed ultricies. Morbi in elit et risus aliquam 
+	condimentum ut sit amet dolor. Nulla facilisi. Suspendisse rutrum eu 
+	eros vel dapibus. Quisque vulputate interdum nisi sit amet faucibus. 
+	Aliquam tincidunt nisl at neque sagittis iaculis.  Mauris pellentesque 
+	diam quis dictum ullamcorper. Class aptent taciti sociosqu ad litora 
+	torquent per conubia nostra, per inceptos himenaeos. Class aptent 
+	taciti sociosqu ad litora torquent per conubia nostra, per inceptos 
+	himenaeos. Integer feugiat nibh dolor, vitae consectetur urna cursus 
+	non. Nullam convallis sollicitudin leo at ullamcorper. Curabitur semper 
+	mi vitae nisl condimentum, vitae suscipit dolor pharetra. Vivamus 
+	euismod nunc vel tincidunt aliquam. Class aptent taciti sociosqu ad 
+	litora torquent per conubia nostra, per inceptos himenaeos. Nunc eget 
+	justo sit amet mauris vulputate posuere in vitae dolor. Nullam a mauris 
+	ultricies, dapibus eros eget, facilisis nibh.
+
+	\ref{odkaz1} 
+	
+	\chapter{Dalsi}
+	
+	\section{Sekce}
+	Nunc suscipit et neque sed ultricies. Morbi in elit et risus aliquam 
+	condimentum ut sit amet dolor. Nulla facilisi. Suspendisse rutrum eu 
+	eros vel dapibus. Quisque vulputate interdum nisi sit amet faucibus. 
+	Aliquam tincidunt nisl at neque sagittis iaculis.  Mauris pellentesque 
+	diam quis dictum ullamcorper. Class aptent taciti sociosqu ad litora 
+	torquent per conubia nostra, per inceptos himenaeos. Class aptent 
+	taciti sociosqu ad litora torquent per conubia nostra, per inceptos 
+	himenaeos. Integer feugiat nibh dolor, vitae consectetur urna cursus 
+	non. Nullam convallis sollicitudin leo at ullamcorper. Curabitur semper 
+	mi vitae nisl condimentum, vitae suscipit dolor pharetra. Vivamus 
+	euismod nunc vel tincidunt aliquam. Class aptent taciti sociosqu ad 
+	litora torquent per conubia nostra, per inceptos himenaeos. Nunc eget 
+	justo sit amet mauris vulputate posuere in vitae dolor. Nullam a mauris 
+	ultricies, dapibus eros eget, facilisis nibh.
+	
+	\subsection{Podsekce}
+	Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec cursus 
+	est nulla, sit amet tincidunt ipsum dignissim sed. Nulla ac maximus 
+	elit. Donec ipsum eros, consequat aliquet maximus non, semper ac felis. 
+	Suspendisse id risus dictum, condimentum urna ac, condimentum felis. 
+	Pellentesque et erat consectetur, elementum elit ut, vehicula arcu. 
+	Pellentesque a mauris non tellus fringilla dignissim eu et nunc. Morbi 
+	sed neque at purus blandit rhoncus eget laoreet tellus. Nam luctus sed 
+	tortor vitae sodales. Morbi sit amet justo ac magna tincidunt sodales. 
+	Quisque vitae molestie ipsum, id accumsan tortor. Praesent rutrum neque 
+	est, id condimentum dui pretium a. Nulla ut mi finibus, auctor erat ut, 
+	sollicitudin elit. Aenean mauris neque, euismod eget est at, lacinia 
+	tristique risus. Cras et urna laoreet, elementum elit ac, eleifend 
+	ipsum.  Integer a porttitor ex. Suspendisse potenti. Sed lobortis magna 
+	vitae ullamcorper volutpat. Mauris ut sodales leo, a vulputate urna.
+
+\end{document}
